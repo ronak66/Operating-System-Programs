@@ -1,4 +1,4 @@
-# Scripts Descriptions
+# File Managment Scripts Descriptions
 
 1. Create the following types of a files using (i) shell command (ii) system call
 	* soft link (symlink system call)

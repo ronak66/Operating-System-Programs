@@ -1,4 +1,4 @@
-# Scripts Descriptions
+# Process Managment Scripts Descriptions
 
 1. Write a program to find out time taken to execute getpid system call. Use time stamp counter.
 
