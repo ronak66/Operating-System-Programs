@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "ipc.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "system_error": "c",
+        "types.h": "c",
+        "stdlib.h": "c"
     }
 }
