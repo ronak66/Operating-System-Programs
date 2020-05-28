@@ -28,8 +28,8 @@ int main(){
             write(1,"Message1 from client: ",sizeof("Message1 from client: "));
             write(1,buff1,len);    
             write(fd,"Hello From Server\n",19);
-            // getchar();
-            // getchar();
+            getchar();
+            getchar();
         }
 		else close(fd);
 	}

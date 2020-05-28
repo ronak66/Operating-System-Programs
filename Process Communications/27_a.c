@@ -14,6 +14,6 @@ int main(){
 	printf("Msg recceive type: ");
 	scanf("%ld",&queue.mtype);
 	int ret = msgrcv(msgid,&queue,sizeof(queue.mtext),queue.mtype,0);
-	printf("Message type : %ld", queue.mtype);
+	printf("Message type : %ld\n", queue.mtype);
 	printf("Message text : %s\n",queue.mtext);
 }
