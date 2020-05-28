@@ -14,12 +14,12 @@ specific account details.
 * Once the customer connect to the server, you should get login and password prompt.
 After successful login, you should get menu for example:
 Do you want to:
-	*Deposit
-	*Withdraw
-	*Balance Enquiry
-	*Password Change
-	*View details
-	*Exit
+	* Deposit
+	* Withdraw
+	* Balance Enquiry
+	* Password Change
+	* View details
+	* Exit
 * If you login as a joint account holder, proper file locking should be implemented. If you
 want to view the account details then read lock is to be set else if you want to withdraw
 or deposit then write lock should be used to protect the critical data section.
